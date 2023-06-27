@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="box">
+        <span id="pass-box"> Testing</span>
+
+        <div class="row">
+          <div class="left">Password Length<span style="color: gray;">(n..)</span></div>
+          <div class="right">
+            <input type="number" max="20" min="5" id="TotalChar" value="20" />
+          </div>
+        </div>
+
+        <div class="row">
+          <label for="Upper-Case">
+            <div class="left">UpperCase<span style="color: gray;">(A-Z)</span></div>
+          </label>
+          <div class="right">
+            <input type="checkbox" id="Upper-Case" checked />
+          </div>
+        </div>
+
+        <div class="row">
+          <label for="Lower-Case">
+            <div class="left">LowerCase<span style="color: gray;">(a-z)</span></div>
+          </label>
+          <div class="right">
+            <input type="checkbox" id="Lower-Case"  checked/>
+          </div>
+        </div>
+
+        <div class="row">
+          <label for="Numbers">
+            <div class="left">Numbers<span style="color: gray;">(0-9)</span></div>
+          </label>
+          <div class="right">
+            <input type="checkbox" id="Numbers" />
+          </div>
+        </div>
+
+        <div class="row">
+          <label for="Symbols">
+            <div class="left">Symbols<span style="color: gray;">(!@#$^^&*)</span></div>
+          </label>
+          <div class="right">
+            <input type="checkbox" id="Symbols" />
+          </div>
+        </div>
+
+        <div class="row">
+          <button id="Generate-password">Generate password</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/sctript.js"></script>
+  </body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
